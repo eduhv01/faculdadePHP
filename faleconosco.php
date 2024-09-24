@@ -75,13 +75,12 @@
         <button type="submit">Enviar</button>
     </form>
 
-    <!-- Exibe a mensagem de agradecimento abaixo do botão -->
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $nome = htmlspecialchars($_POST['nome']);
         $email = htmlspecialchars($_POST['email']);
         $mensagem = htmlspecialchars($_POST['mensagem']);
-
+        
         echo "<p>Obrigado, $nome! Sua mensagem foi recebida.</p>";
     }
     ?>
