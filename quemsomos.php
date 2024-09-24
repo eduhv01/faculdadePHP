@@ -1,3 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/templates/estilos.css">
+</head>
+<body>
+    <style>
+        section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+    </style>
+</body>
+</html>
+
 <?php
     include_once 'templates/topo.php';
     include_once 'templates/menu.php';

@@ -8,9 +8,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nós</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/templates/estilos.css">
     <style>
-        /* Estilos específicos para a página Sobre */
         .sobre-section {
             max-width: 800px;
             margin: 20px auto;

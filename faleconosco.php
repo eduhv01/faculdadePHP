@@ -74,10 +74,9 @@
         
         <button type="submit">Enviar</button>
     </form>
-</section>
-<?php
-    include_once 'templates/rodape.php';
 
+    <!-- Exibe a mensagem de agradecimento abaixo do botão -->
+    <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $nome = htmlspecialchars($_POST['nome']);
         $email = htmlspecialchars($_POST['email']);
@@ -85,6 +84,10 @@
 
         echo "<p>Obrigado, $nome! Sua mensagem foi recebida.</p>";
     }
+    ?>
+</section>
+<?php
+    include_once 'templates/rodape.php';
 ?>
 </body>
 </html>
